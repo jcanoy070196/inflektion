@@ -23,3 +23,5 @@ API for List/Get/Delete/Create/Update Successful Email has a client middleware w
 Auth API: Use the Login API and supply the client_id and client_secret you generated earlier.
 
 Create API will only require `email` as the parameter as `raw_text` will be generated automatically. This goes the same with the Update API with an additional `id` parameter.
+
+You can also run the command for parsing an email directly without the api. Run the command `php artisan app:parse-email {email}
